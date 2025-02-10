@@ -141,7 +141,7 @@ header{
   }
   .about{
     min-height: 100vh;
-    background-image: url(../img/mobile.png);
+    background-image: url(../img/mobile3.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,9 +156,9 @@ header{
 .about3{
     margin-top: 5%;
 }
-.section{
+.section3{
     min-height: 100vh;
-    background-image: url(../img/mobile2.png);
+    background-image: url(../img/mobile4.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
