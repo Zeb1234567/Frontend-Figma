@@ -156,6 +156,13 @@ header{
 .about3{
     margin-top: 5%;
 }
+.section{
+    min-height: 100vh;
+    background-image: url(../img/mobile2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .last{
     min-height: 30vh;
 }
