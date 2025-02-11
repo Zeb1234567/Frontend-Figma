@@ -145,6 +145,7 @@ header{
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: -25%;
   }
 
 .about2{
@@ -156,6 +157,15 @@ header{
 .about3{
     margin-top: 5%;
 }
+.about5{
+    margin-top: 8%;
+    text-indent: 74%;
+    font-size: 26px;
+    font-weight: 900;
+}
+.about6{
+    font-size: 10px;
+}
 .section3{
     min-height: 100vh;
     background-image: url(../img/mobile4.png);
@@ -165,6 +175,7 @@ header{
 }
 .last{
     min-height: 30vh;
+    background-color: antiquewhite;
 }
 .last1{
     text-align: left;
@@ -198,6 +209,60 @@ header{
     text-transform: none;
     text-decoration: none;
 }
+
+.third-section{
+    height:100vh;
+    background-image: url(../img/thirdbg.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.third-section-row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.third-section-col{
+    margin-top: 10%;
+}
+
+.third-header{
+    color: #091133;
+    font-size: 36px;
+    line-height: 48px;
+    width: 540px;
+}
+
+.third-p{
+    color: #6f7cb2;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+}
+.section4{
+    height: 70vh;
+}
+.pricing-container {
+    text-align: center; /* Centers text horizontally */
+    max-width: 600px; /* Limits width for readability */
+    margin: 0 auto; /* Centers the div horizontally */
+    padding: 50px 20px; /* Adds spacing */
+}
+
+h2, h1, p {
+    margin-bottom: 10px; /* Adds spacing between elements */
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
 /* flex-start: Lines are packed at the top of the container.
 flex-end: Lines are packed at the bottom of the container.
 center: Lines are packed at the vertical center of the container.
